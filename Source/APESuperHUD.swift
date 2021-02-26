@@ -96,8 +96,8 @@ public class APESuperHUD: UIViewController {
     }
     
     public var duration: TimeInterval? {
-        if case let .icon(tuple) = style {
-            return tuple.duration
+        if case .icon(_, let duration) = style {
+            return duration
         } else {
             return nil
         }
@@ -259,8 +259,9 @@ public class APESuperHUD: UIViewController {
     
     private func setStyle(oldValue: HUDStyle? = nil, animated: Bool) {
         switch style {
-        case .icon(let tuple):
-            if let oldValue = oldValue, case let .icon(oldTuple) = oldValue, oldTuple.image == tuple.image {
+        case .icon(let image, _):
+            
+            if let oldValue = oldValue, case .icon( _, _) = oldValue {
                 return
             }
             
@@ -273,7 +274,7 @@ public class APESuperHUD: UIViewController {
                     guard isFinished else { return }
                     
                     DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + delay, execute: {
-                        self.iconImageView.image = tuple.image
+                        self.iconImageView.image = image
                         self.iconImageView.isHidden = false
                         self.iconContainerView.isHidden = false
                         self.loadingIndicatorView.isHidden = true
@@ -290,7 +291,7 @@ public class APESuperHUD: UIViewController {
                 loadingIndicatorView.isHidden = true
                 iconImageView.isHidden = false
                 iconContainerView.isHidden = false
-                iconImageView.image = tuple.image
+                iconImageView.image = image
             }
             
         case .loadingIndicator(_):
