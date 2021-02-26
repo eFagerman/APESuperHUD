@@ -154,7 +154,7 @@
 					18AC6D5E1C5B942900FE881A = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = Q48PCXNS55;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -163,6 +163,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -367,7 +368,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.apegroup.APESuperHUDDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -383,7 +384,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.apegroup.APESuperHUDDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
