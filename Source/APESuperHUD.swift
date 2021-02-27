@@ -96,7 +96,7 @@ public class APESuperHUD: UIViewController {
     }
     
     public var duration: TimeInterval? {
-        if case .icon(_, let duration) = style {
+        if case .icon(let _, let duration) = style {
             return duration
         } else {
             return nil
@@ -259,7 +259,7 @@ public class APESuperHUD: UIViewController {
     
     private func setStyle(oldValue: HUDStyle? = nil, animated: Bool) {
         switch style {
-        case .icon(let image, _):
+        case .icon(let image, let duration):
             
             if let oldValue = oldValue, case .icon( _, _) = oldValue {
                 return
