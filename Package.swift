@@ -24,7 +24,7 @@ let package = Package(
         .target(
             name: "APESuperHUD",
             dependencies: [],
-            path: "Sources"),
+            path: "Source"),
         .testTarget(
             name: "APESuperHUDTests",
             dependencies: ["APESuperHUD"],
