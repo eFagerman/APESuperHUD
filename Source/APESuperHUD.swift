@@ -96,9 +96,10 @@ public class APESuperHUD: UIViewController {
     }
     
     public var duration: TimeInterval? {
-        if case .icon(let _, let duration) = style {
+        switch style {
+        case .icon(_, let duration):
             return duration
-        } else {
+        default:
             return nil
         }
     }
