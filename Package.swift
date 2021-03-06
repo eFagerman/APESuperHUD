@@ -25,16 +25,7 @@ let package = Package(
         
         .binaryTarget(
             name: "APESuperHUD",
-            path: "./Sources/APESuperHUD.xcframework"),
+            path: "./Sources/APESuperHUD.xcframework")
         
-        .target(
-            name: "APESuperHUD",
-            dependencies: [],
-            path: "Source"),
-        
-        .testTarget(
-            name: "APESuperHUDTests",
-            dependencies: ["APESuperHUD"],
-            path: "Tests")
     ]
 )
