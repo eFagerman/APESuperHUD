@@ -1,0 +1,70 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-module-flags: -target x86_64-apple-ios13.1-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name APESuperHUD
+@_exported import APESuperHUD
+import Foundation
+import Swift
+import UIKit
+public enum HUDStyle {
+  case icon(image: UIKit.UIImage, duration: Foundation.TimeInterval?)
+  case loadingIndicator(type: APESuperHUD.LoadingIndicatorType)
+  case textOnly
+}
+public enum LoadingIndicatorType : Swift.Int {
+  case standard
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct HUDAppearance {
+  public static var titleTextColor: UIKit.UIColor
+  public static var messageTextColor: UIKit.UIColor
+  public static var iconColor: UIKit.UIColor
+  public static var backgroundColor: UIKit.UIColor
+  public static var foregroundColor: UIKit.UIColor
+  public static var loadingActivityIndicatorColor: UIKit.UIColor
+  public static var cornerRadius: CoreGraphics.CGFloat
+  public static var shadow: Swift.Bool
+  public static var shadowColor: UIKit.UIColor
+  public static var shadowOffset: CoreGraphics.CGSize
+  public static var shadowRadius: CoreGraphics.CGFloat
+  public static var shadowOpacity: Swift.Float
+  public static var cancelableOnTouch: Swift.Bool
+  public static var messageFont: UIKit.UIFont
+  public static var titleFont: UIKit.UIFont
+  public static var iconSize: CoreGraphics.CGSize
+  public static var hudSize: CoreGraphics.CGSize
+  public static var animateInTime: Swift.Double
+  public static var animateOutTime: Swift.Double
+}
+@objc public class APESuperHUD : UIKit.UIViewController {
+  public var style: APESuperHUD.HUDStyle {
+    get
+    set
+  }
+  @objc override dynamic public var title: Swift.String? {
+    @objc get
+    @objc set
+  }
+  public var message: Swift.String? {
+    get
+    set
+  }
+  public var duration: Foundation.TimeInterval? {
+    get
+  }
+  public init(style: APESuperHUD.HUDStyle, title: Swift.String? = nil, message: Swift.String? = nil, completion: (() -> Swift.Void)? = nil)
+  public static func show(style: APESuperHUD.HUDStyle, title: Swift.String? = nil, message: Swift.String? = nil, completion: (() -> Swift.Void)? = nil)
+  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc override dynamic public func viewDidLoad()
+  @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @objc override dynamic public func dismiss(animated flag: Swift.Bool, completion: (() -> Swift.Void)? = nil)
+  public static func dismissAll(animated flag: Swift.Bool, completion: (() -> Swift.Void)? = nil)
+  @objc deinit
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+}
+extension APESuperHUD.LoadingIndicatorType : Swift.Equatable {}
+extension APESuperHUD.LoadingIndicatorType : Swift.Hashable {}
+extension APESuperHUD.LoadingIndicatorType : Swift.RawRepresentable {}
