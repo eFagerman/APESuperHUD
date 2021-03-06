@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="APESuperHUD" customModule="APESuperHUD" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SuperHUD" customModule="APESuperHUD" customModuleProvider="target">
             <connections>
                 <outlet property="hudView" destination="NHB-vj-huw" id="FYU-FE-gSN"/>
                 <outlet property="hudViewHeightConstraint" destination="LNY-c1-Eb8" id="UEV-8M-0vK"/>
@@ -44,7 +42,7 @@
                                     <rect key="frame" x="0.0" y="28" width="230" height="48"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1IM-EV-YRx">
-                                            <rect key="frame" x="90.5" y="0.0" width="48" height="48"/>
+                                            <rect key="frame" x="91" y="0.0" width="48" height="48"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="48" id="Yup-NK-2AM"/>
                                                 <constraint firstAttribute="width" constant="48" id="Zsj-zV-kF4"/>
@@ -86,15 +84,16 @@
                     </constraints>
                 </view>
             </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="NHB-vj-huw" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="kED-Dt-ns3"/>
                 <constraint firstItem="NHB-vj-huw" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="rUa-L7-zKO"/>
             </constraints>
-            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <connections>
                 <outletCollection property="gestureRecognizers" destination="LxJ-cY-a7n" appends="YES" id="cU7-Ax-xiH"/>
             </connections>
+            <point key="canvasLocation" x="-129" y="-20"/>
         </view>
         <tapGestureRecognizer id="LxJ-cY-a7n">
             <connections>

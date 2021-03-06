@@ -24,7 +24,7 @@
 
 import UIKit
 
-public class APESuperHUD: UIViewController {
+public class SuperHUD: UIViewController {
     
     @IBOutlet private weak var hudView: UIView!
     @IBOutlet private weak var hudViewWidthConstraint: NSLayoutConstraint!
@@ -115,7 +115,7 @@ public class APESuperHUD: UIViewController {
         self.completionBlock = completion
         
         let nibName = String(describing: type(of: self))
-        let bundle = Bundle(for: APESuperHUD.self)
+        let bundle = Bundle(for: SuperHUD.self)
         super.init(nibName: nibName, bundle: bundle)
         
         modalPresentationStyle = .overFullScreen
@@ -125,13 +125,13 @@ public class APESuperHUD: UIViewController {
     }
     
     public static func show(style: HUDStyle, title: String? = nil, message: String? = nil, completion: (() -> Void)? = nil) {
-        if let vc = UIApplication.shared.windows.map({ $0.rootViewController }).compactMap({ $0 as? APESuperHUD }).first {
+        if let vc = UIApplication.shared.windows.map({ $0.rootViewController }).compactMap({ $0 as? SuperHUD }).first {
             vc.style = style
             vc.title = title
             vc.message = message
             vc.completionBlock = completion
         } else {
-            let vc = APESuperHUD(style: style, title: title, message: message, completion: completion)
+            let vc = SuperHUD(style: style, title: title, message: message, completion: completion)
             let window = UIWindow(frame: UIScreen.main.bounds)
             window.backgroundColor = .clear
             window.rootViewController = vc
@@ -208,9 +208,9 @@ public class APESuperHUD: UIViewController {
             }, completion: { isFinished in
                 self.completionBlock?()
                 if isFinished {
-                    if APESuperHUD.window != nil {
+                    if SuperHUD.window != nil {
                         completion?()
-                        APESuperHUD.window = nil
+                        SuperHUD.window = nil
                     }
                     
                     super.dismiss(animated: flag, completion: completion)
@@ -219,9 +219,9 @@ public class APESuperHUD: UIViewController {
         } else {
             completionBlock?()
             
-            if APESuperHUD.window != nil {
+            if SuperHUD.window != nil {
                 completion?()
-                APESuperHUD.window = nil
+                SuperHUD.window = nil
             }
             
             super.dismiss(animated: flag, completion: completion)
@@ -242,7 +242,7 @@ public class APESuperHUD: UIViewController {
     }
     
     public static func dismissAll(animated flag: Bool, completion: (() -> Void)? = nil) {
-        if let vc = UIApplication.shared.windows.map({ $0.rootViewController }).compactMap({ $0 as? APESuperHUD }).first {
+        if let vc = UIApplication.shared.windows.map({ $0.rootViewController }).compactMap({ $0 as? SuperHUD }).first {
             vc.dismiss(animated: flag, completion: completion)
         }
     }

@@ -58,7 +58,7 @@ class ViewController: UIViewController {
     @IBAction func showHudWithIcon(_ sender: UIButton) {
         let image = UIImage(named: "apegroup")!
         
-        APESuperHUD.show(style: .icon(image: image, duration: 3.0), title: "Hello", message: "world") {
+        SuperHUD.show(style: .icon(image: image, duration: 3.0), title: "Hello", message: "world") {
             print("HUD dismissed")
         }
         
@@ -71,10 +71,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showHudWithLoadingIndicator(_ sender: UIButton) {
-        APESuperHUD.show(style: .loadingIndicator(type: .standard), title: nil, message: "Loading...")
+        SuperHUD.show(style: .loadingIndicator(type: .standard), title: nil, message: "Loading...")
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 3.0, execute: {
-            APESuperHUD.dismissAll(animated: true)
+            SuperHUD.dismissAll(animated: true)
         })
         
         // Or create a instance of APESuperHud
@@ -90,10 +90,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showHudWithTitleAndMessage(_ sender: UIButton) {
-        APESuperHUD.show(style: .textOnly, title: "Hello", message: "world")
+        SuperHUD.show(style: .textOnly, title: "Hello", message: "world")
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 3.0, execute: {
-            APESuperHUD.dismissAll(animated: true)
+            SuperHUD.dismissAll(animated: true)
         })
         
         // Or create a instance of APESuperHud
@@ -109,14 +109,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showHudWithUpdates(_ sender: UIButton) {
-        APESuperHUD.show(style: .loadingIndicator(type: .standard), title: nil, message: "Loading...")
+        SuperHUD.show(style: .loadingIndicator(type: .standard), title: nil, message: "Loading...")
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 3.0, execute: {
-            APESuperHUD.show(style: .textOnly, title: "Done loading", message: nil)
+            SuperHUD.show(style: .textOnly, title: "Done loading", message: nil)
             
             DispatchQueue.main.asyncAfter(deadline: .now() + 3.0, execute: {
                 let image = UIImage(named: "apegroup")!
-                APESuperHUD.show(style: .icon(image: image, duration: 3.0), title: nil, message: nil)
+                SuperHUD.show(style: .icon(image: image, duration: 3.0), title: nil, message: nil)
             })
         })
     }
