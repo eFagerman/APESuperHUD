@@ -211,8 +211,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class NSCoder;
 @class NSBundle;
 
-SWIFT_CLASS("_TtC11APESuperHUD11APESuperHUD")
-@interface APESuperHUD : UIViewController
+SWIFT_CLASS("_TtC11APESuperHUD8SuperHUD")
+@interface SuperHUD : UIViewController
 @property (nonatomic, copy) NSString * _Nullable title;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)viewDidLoad;
@@ -439,8 +439,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class NSCoder;
 @class NSBundle;
 
-SWIFT_CLASS("_TtC11APESuperHUD11APESuperHUD")
-@interface APESuperHUD : UIViewController
+SWIFT_CLASS("_TtC11APESuperHUD8SuperHUD")
+@interface SuperHUD : UIViewController
 @property (nonatomic, copy) NSString * _Nullable title;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)viewDidLoad;
@@ -667,8 +667,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class NSCoder;
 @class NSBundle;
 
-SWIFT_CLASS("_TtC11APESuperHUD11APESuperHUD")
-@interface APESuperHUD : UIViewController
+SWIFT_CLASS("_TtC11APESuperHUD8SuperHUD")
+@interface SuperHUD : UIViewController
 @property (nonatomic, copy) NSString * _Nullable title;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)viewDidLoad;

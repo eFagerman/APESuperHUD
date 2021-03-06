@@ -4,19 +4,15 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>APESuperHUD.nib</key>
-		<data>
-		4BFa0qBcmTlGSrDKRgQ57jcID9I=
-		</data>
 		<key>Assets.car</key>
 		<data>
-		jCHJZh/sOhFlKQnmT1T/HX780i0=
+		NSLIkpFSJ9Oori6UpASHovOyH6A=
 		</data>
 		<key>Headers/APESuperHUD-Swift.h</key>
 		<data>
-		wOYgRz2PhtJtvegm3e8JXXaaPzY=
+		MYkQ2wY4gXp+8oQpxMSbQs0GWSs=
 		</data>
-		<key>Headers/APESuperHUD.h</key>
+		<key>Headers/SuperHUD.h</key>
 		<data>
 		pjH3NxIqXs6mpBme6mqh0+RXPcw=
 		</data>
@@ -30,11 +26,11 @@
 		</data>
 		<key>Modules/APESuperHUD.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		mJF31KkQ/5ZAJXUoKb8y/bF+1Qw=
+		DnhHYSZqkBov7LOyWbduFXhSilA=
 		</data>
 		<key>Modules/APESuperHUD.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bKYZ0mhmT8cQ0MZrdv/1sVTwtmk=
+		CJODC33a1uuCEAroVE7eQt1Aocg=
 		</data>
 		<key>Modules/APESuperHUD.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -42,11 +38,11 @@
 		</data>
 		<key>Modules/APESuperHUD.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		mJF31KkQ/5ZAJXUoKb8y/bF+1Qw=
+		DnhHYSZqkBov7LOyWbduFXhSilA=
 		</data>
 		<key>Modules/APESuperHUD.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		bKYZ0mhmT8cQ0MZrdv/1sVTwtmk=
+		CJODC33a1uuCEAroVE7eQt1Aocg=
 		</data>
 		<key>Modules/APESuperHUD.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +50,11 @@
 		</data>
 		<key>Modules/APESuperHUD.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Ft3dye16yhSFEjct/Imenrl7w6k=
+		KMCPMBuExALM2vZ/HHCg2vFhCg0=
 		</data>
 		<key>Modules/APESuperHUD.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Kltkjo5BupsJ3euXwOlmiFAc6Ok=
+		yhGfyi4CLjh1C5vF6IvnACacsCU=
 		</data>
 		<key>Modules/APESuperHUD.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -66,11 +62,11 @@
 		</data>
 		<key>Modules/APESuperHUD.swiftmodule/i386.swiftinterface</key>
 		<data>
-		Ft3dye16yhSFEjct/Imenrl7w6k=
+		KMCPMBuExALM2vZ/HHCg2vFhCg0=
 		</data>
 		<key>Modules/APESuperHUD.swiftmodule/i386.swiftmodule</key>
 		<data>
-		Kltkjo5BupsJ3euXwOlmiFAc6Ok=
+		yhGfyi4CLjh1C5vF6IvnACacsCU=
 		</data>
 		<key>Modules/APESuperHUD.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -78,11 +74,11 @@
 		</data>
 		<key>Modules/APESuperHUD.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Ro5oYhKzT1T+03JtHDKCy9W3vnM=
+		kB+FTPBoFU62DTbfGVaCyshP8KQ=
 		</data>
 		<key>Modules/APESuperHUD.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zXAyVvRZ6g9KYG6501PBiG3R148=
+		OWakC2AADDTvdIE5Ei+yLrNRFOQ=
 		</data>
 		<key>Modules/APESuperHUD.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -90,53 +86,46 @@
 		</data>
 		<key>Modules/APESuperHUD.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		Ro5oYhKzT1T+03JtHDKCy9W3vnM=
+		kB+FTPBoFU62DTbfGVaCyshP8KQ=
 		</data>
 		<key>Modules/APESuperHUD.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		zXAyVvRZ6g9KYG6501PBiG3R148=
+		OWakC2AADDTvdIE5Ei+yLrNRFOQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		gQTULEpgVgembHG7wLZVl+sH9dQ=
+		WcghZW/jGk8V0K0vdOiEWVYbBgg=
+		</data>
+		<key>SuperHUD.nib</key>
+		<data>
+		Lt/kIUP2gDQKVzPUYigmHdKpFmo=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>APESuperHUD.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4BFa0qBcmTlGSrDKRgQ57jcID9I=
-			</data>
-			<key>hash2</key>
-			<data>
-			LWuvKeGiL4SZGDhobnhh608WHLXTf7VoC8nNTirF+Ao=
-			</data>
-		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jCHJZh/sOhFlKQnmT1T/HX780i0=
+			NSLIkpFSJ9Oori6UpASHovOyH6A=
 			</data>
 			<key>hash2</key>
 			<data>
-			7nQEN01Df+sR1Q/tqL26tOUjclze5TX/JZV4YakKBK8=
+			4gvujfjbOnhwPWZegeGfnrYsxESkUhmI54o/1xyjyro=
 			</data>
 		</dict>
 		<key>Headers/APESuperHUD-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wOYgRz2PhtJtvegm3e8JXXaaPzY=
+			MYkQ2wY4gXp+8oQpxMSbQs0GWSs=
 			</data>
 			<key>hash2</key>
 			<data>
-			TGxA/4IZ9e6YhPHEJb8lDtPgOIRvmFVY5TRGQdItA/o=
+			9Ksf+At99b/nVw2tjOsJ5/gfwbZNw8k1edLxue7O1MI=
 			</data>
 		</dict>
-		<key>Headers/APESuperHUD.h</key>
+		<key>Headers/SuperHUD.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -162,22 +151,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mJF31KkQ/5ZAJXUoKb8y/bF+1Qw=
+			DnhHYSZqkBov7LOyWbduFXhSilA=
 			</data>
 			<key>hash2</key>
 			<data>
-			FhstW6zniLrx3IO/IZufoPAnt8zGozhMFiIiom847cs=
+			uYwD5Ehm09RA24LBC2PrGwpkR036yRJ80IyY7OhX7v4=
 			</data>
 		</dict>
 		<key>Modules/APESuperHUD.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bKYZ0mhmT8cQ0MZrdv/1sVTwtmk=
+			CJODC33a1uuCEAroVE7eQt1Aocg=
 			</data>
 			<key>hash2</key>
 			<data>
-			bhV2FZT78t3PE0FM3EVZ4CmmlTZQgTVNjQBHTLXh6xM=
+			lBPeBC2moxrVed7RDE2JOKk6WZK3WZFmr5SD9pE9K/A=
 			</data>
 		</dict>
 		<key>Modules/APESuperHUD.swiftmodule/arm64.swiftdoc</key>
@@ -195,22 +184,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mJF31KkQ/5ZAJXUoKb8y/bF+1Qw=
+			DnhHYSZqkBov7LOyWbduFXhSilA=
 			</data>
 			<key>hash2</key>
 			<data>
-			FhstW6zniLrx3IO/IZufoPAnt8zGozhMFiIiom847cs=
+			uYwD5Ehm09RA24LBC2PrGwpkR036yRJ80IyY7OhX7v4=
 			</data>
 		</dict>
 		<key>Modules/APESuperHUD.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bKYZ0mhmT8cQ0MZrdv/1sVTwtmk=
+			CJODC33a1uuCEAroVE7eQt1Aocg=
 			</data>
 			<key>hash2</key>
 			<data>
-			bhV2FZT78t3PE0FM3EVZ4CmmlTZQgTVNjQBHTLXh6xM=
+			lBPeBC2moxrVed7RDE2JOKk6WZK3WZFmr5SD9pE9K/A=
 			</data>
 		</dict>
 		<key>Modules/APESuperHUD.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -228,22 +217,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ft3dye16yhSFEjct/Imenrl7w6k=
+			KMCPMBuExALM2vZ/HHCg2vFhCg0=
 			</data>
 			<key>hash2</key>
 			<data>
-			sz96NfvlaaLAF4lfg89EXzVhTAmsq9+WOA90sw1b8sI=
+			kTgtXaXiRX6ecdJvZSNlQn5j47A7hJIvv6Tn9aPymxU=
 			</data>
 		</dict>
 		<key>Modules/APESuperHUD.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Kltkjo5BupsJ3euXwOlmiFAc6Ok=
+			yhGfyi4CLjh1C5vF6IvnACacsCU=
 			</data>
 			<key>hash2</key>
 			<data>
-			bm+PQWFulY96cOYnfA5TxQ64EcMLjz+wG7zh50iSL5g=
+			ztGdfyHIC6VuuTZKJyKbL+FZ4rdUjeIkt1SIX8U/wa8=
 			</data>
 		</dict>
 		<key>Modules/APESuperHUD.swiftmodule/i386.swiftdoc</key>
@@ -261,22 +250,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ft3dye16yhSFEjct/Imenrl7w6k=
+			KMCPMBuExALM2vZ/HHCg2vFhCg0=
 			</data>
 			<key>hash2</key>
 			<data>
-			sz96NfvlaaLAF4lfg89EXzVhTAmsq9+WOA90sw1b8sI=
+			kTgtXaXiRX6ecdJvZSNlQn5j47A7hJIvv6Tn9aPymxU=
 			</data>
 		</dict>
 		<key>Modules/APESuperHUD.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Kltkjo5BupsJ3euXwOlmiFAc6Ok=
+			yhGfyi4CLjh1C5vF6IvnACacsCU=
 			</data>
 			<key>hash2</key>
 			<data>
-			bm+PQWFulY96cOYnfA5TxQ64EcMLjz+wG7zh50iSL5g=
+			ztGdfyHIC6VuuTZKJyKbL+FZ4rdUjeIkt1SIX8U/wa8=
 			</data>
 		</dict>
 		<key>Modules/APESuperHUD.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -294,22 +283,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ro5oYhKzT1T+03JtHDKCy9W3vnM=
+			kB+FTPBoFU62DTbfGVaCyshP8KQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			VWMcWIr3qbfS5YXHPG2q/Jwvyq+mvXflifnc2xT4BQ4=
+			MLu79lsu492T3V3JKzFgCsQErc6uT2aR0I1TIi2lJME=
 			</data>
 		</dict>
 		<key>Modules/APESuperHUD.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zXAyVvRZ6g9KYG6501PBiG3R148=
+			OWakC2AADDTvdIE5Ei+yLrNRFOQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			mn37/pg4zBIBaoy+118iA7xX4GFcF+9FaVmW6vqMZug=
+			v8A3BQw05X9ZacUtVbt3QIBOWndoAG3pWioFyW+kpIA=
 			</data>
 		</dict>
 		<key>Modules/APESuperHUD.swiftmodule/x86_64.swiftdoc</key>
@@ -327,33 +316,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ro5oYhKzT1T+03JtHDKCy9W3vnM=
+			kB+FTPBoFU62DTbfGVaCyshP8KQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			VWMcWIr3qbfS5YXHPG2q/Jwvyq+mvXflifnc2xT4BQ4=
+			MLu79lsu492T3V3JKzFgCsQErc6uT2aR0I1TIi2lJME=
 			</data>
 		</dict>
 		<key>Modules/APESuperHUD.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zXAyVvRZ6g9KYG6501PBiG3R148=
+			OWakC2AADDTvdIE5Ei+yLrNRFOQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			mn37/pg4zBIBaoy+118iA7xX4GFcF+9FaVmW6vqMZug=
+			v8A3BQw05X9ZacUtVbt3QIBOWndoAG3pWioFyW+kpIA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gQTULEpgVgembHG7wLZVl+sH9dQ=
+			WcghZW/jGk8V0K0vdOiEWVYbBgg=
 			</data>
 			<key>hash2</key>
 			<data>
-			9yx5AfTXBnQxsT+Zs/WNoVZA1VNi3GmHkQeZlHWgZOQ=
+			QdObV83XGw4NjP8c+s5OktbEiP5QEmYn+Wr6GAyAaFo=
+			</data>
+		</dict>
+		<key>SuperHUD.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Lt/kIUP2gDQKVzPUYigmHdKpFmo=
+			</data>
+			<key>hash2</key>
+			<data>
+			K8/suAg7S8ixVVF4ohALztR718fkx9tSJlTVgT+6Fa8=
 			</data>
 		</dict>
 	</dict>

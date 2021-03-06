@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Resources/APESuperHUD.nib</key>
-		<data>
-		K6mec2MNxlAD7puFNualyKKKPNQ=
-		</data>
 		<key>Resources/Assets.car</key>
 		<data>
 		r4FC9aJivqKugEaqkryh6K05B/I=
@@ -16,6 +12,10 @@
 		<data>
 		I6n6/wcLLP1wEVyBTaMPqYCcfG8=
 		</data>
+		<key>Resources/SuperHUD.nib</key>
+		<data>
+		vdfRGo0DQ0ObLWMx1ytW16WkOtc=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -23,10 +23,10 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZVsTuTQb8dZOCBMtg3Up8Ccv8ClJreiRJSPeKp7X6O8=
+			UNLOpc4IGbADdadJPw/JRsoYyX2icqbsTmwVGHGKtv8=
 			</data>
 		</dict>
-		<key>Headers/APESuperHUD.h</key>
+		<key>Headers/SuperHUD.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
@@ -44,14 +44,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2xFJbBFjFDS36c1NJCi/NSLIW8vwC8CA1mFW329r1/c=
+			YAMM+HnC3PHNk7Qlja7U/DXVJjtMryjTtoT1/df5H8Y=
 			</data>
 		</dict>
 		<key>Modules/APESuperHUD.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mi6LM4YrqdMEZlAgqnF1jFLYNK/UO4ZAEoY1vlcBJNE=
+			vBktAWzl7VaP359BYp5AZvimG27z9016YqMknuhFqtQ=
 			</data>
 		</dict>
 		<key>Modules/APESuperHUD.swiftmodule/arm64.swiftdoc</key>
@@ -65,14 +65,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2xFJbBFjFDS36c1NJCi/NSLIW8vwC8CA1mFW329r1/c=
+			YAMM+HnC3PHNk7Qlja7U/DXVJjtMryjTtoT1/df5H8Y=
 			</data>
 		</dict>
 		<key>Modules/APESuperHUD.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mi6LM4YrqdMEZlAgqnF1jFLYNK/UO4ZAEoY1vlcBJNE=
+			vBktAWzl7VaP359BYp5AZvimG27z9016YqMknuhFqtQ=
 			</data>
 		</dict>
 		<key>Modules/APESuperHUD.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
@@ -86,14 +86,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JgRwuLIoTTVX/Nywy9K5EqPH2SazkJR9CWcLYO5oWGM=
+			VmwjZN8mJwCgDjVm7oySf3T/eCBAH3Kdv+ZZZtMM/gQ=
 			</data>
 		</dict>
 		<key>Modules/APESuperHUD.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/lcy4+8Y7YUYPofjEBwZeDblw2JNl6kTkZrTUteUqro=
+			RZZv6UGS5Z5Dxl/KZIa5cRe3Wl20GqiXY/LKZPd1djs=
 			</data>
 		</dict>
 		<key>Modules/APESuperHUD.swiftmodule/x86_64.swiftdoc</key>
@@ -107,28 +107,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JgRwuLIoTTVX/Nywy9K5EqPH2SazkJR9CWcLYO5oWGM=
+			VmwjZN8mJwCgDjVm7oySf3T/eCBAH3Kdv+ZZZtMM/gQ=
 			</data>
 		</dict>
 		<key>Modules/APESuperHUD.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/lcy4+8Y7YUYPofjEBwZeDblw2JNl6kTkZrTUteUqro=
+			RZZv6UGS5Z5Dxl/KZIa5cRe3Wl20GqiXY/LKZPd1djs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9yx5AfTXBnQxsT+Zs/WNoVZA1VNi3GmHkQeZlHWgZOQ=
-			</data>
-		</dict>
-		<key>Resources/APESuperHUD.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7C3mJvpGG/vHmA9HnVaHxEj1Pht5ngdAwefoI5ZTmqg=
+			QdObV83XGw4NjP8c+s5OktbEiP5QEmYn+Wr6GAyAaFo=
 			</data>
 		</dict>
 		<key>Resources/Assets.car</key>
@@ -143,6 +136,13 @@
 			<key>hash2</key>
 			<data>
 			lYD+HGB72RwJkG4KCrQly9fNTbHKns4c5yWsVpSrahU=
+			</data>
+		</dict>
+		<key>Resources/SuperHUD.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4yPqvO4fLAlO7DyRLD0JiMEgya4mC5xylgWieW+7in0=
 			</data>
 		</dict>
 	</dict>
